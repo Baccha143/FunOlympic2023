@@ -1,0 +1,30 @@
+
+.strength-password[data-score="null"] {
+  width: 0;
+  background: red;
+}
+
+.strength-password[data-score="0"] {
+  width: 5%;
+  background: #f44336;
+}
+
+.strength-password[data-score="1"] {
+  width: 25%;
+  background: #f44336;
+}
+
+.strength-password[data-score="2"] {
+  width: 50%;
+  background: #ffeb3b;
+}
+
+.strength-password[data-score="3"] {
+  width: 75%;
+  background: #4caf50;
+}
+
+.strength-password[data-score="4"] {
+  width: 100%;
+  background: #4caf50;
+}
